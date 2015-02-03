@@ -1,0 +1,3 @@
+name: rails-mongoid-yml
+version: 0.0.1
+description: A wercker step to generate mongoid.yml
