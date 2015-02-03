@@ -11,7 +11,7 @@ services:
   - wercker/mongodb
 build:
   steps:
-    - rails-mongoid-yml
+    - heathrow/rails-mongoid-yml
 ```
 
 Will generate the following `config/mongoid.yml`:
