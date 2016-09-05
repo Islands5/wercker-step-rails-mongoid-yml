@@ -10,7 +10,7 @@ test:
     default:
       database: mongodb_test
       hosts:
-        - <%= ENV['WERCKER_MONGODB_HOST'] %>
+        - <%= ENV['MONGO_PORT_27017_TCP_ADDR'] %>:<%= ENV['MONGO_PORT_27017_TCP_PORT'] %>
       options:
         read: primary
         max_retries: 1
